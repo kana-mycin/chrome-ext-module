@@ -27,7 +27,7 @@ function getCurrentTabUrl() {
 }
 
 function shouldBlock(blockUrl) {
-    to_block = ['facebook.com', 'reddit.com']
+    to_block = ['facebook.com']
     for (url of to_block) {
         console.log(url)
         console.log(blockUrl)

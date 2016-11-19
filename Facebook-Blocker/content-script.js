@@ -1,23 +1,11 @@
 function blockPage() {
-    return document.getElementsByTagName('html')[0].innerHTML = '<head></head><body><div id=blockMessage>why u go on facebook go face book and study >:(</div></body>'
+    return document.getElementsByTagName('html')[0].innerHTML = '<head></head><body><div id=blockMessage>BLOCKED</div></body>'
 }
 
-// chrome.runtime.onMessage.addListener(
-//     function(request, sender, sendResponse) {
-//         if (request.action = "blockPage") {
-//             blockPage()
-//             sendResponse({err: 'successfully blocked'})
-//         }
-//     }
-// )
-
-function sendLoaded() {
-    chrome.runtime.sendMessage({loaded: true, domain: document.domain}, function(response) {
-        console.log(response)
-        if (response.action == "blockPage") {
-            blockPage()
-        }
-    })
+function doStuff() {
+    // --- FILL IN ANY STUFF YOU WANT YOUR EXTENSION TO DO ---
+    blockPage();
 }
 
-window.addEventListener("load", sendLoaded, false)
+// don't worry about this line
+window.addEventListener("load", doStuff, false)

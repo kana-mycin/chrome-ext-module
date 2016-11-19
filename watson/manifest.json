@@ -1,19 +1,21 @@
 {
   "manifest_version": 2,
 
-  "name": "BearHacks Facebook Blocker",
-  "description": "This extension blocks Facebook whenever you load it.",
+  "name": "How angry is this person, on a scale of 1-10?",
+  "description": "Determine a person's anger level using watson tone analyzer API.",
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "block_fb.png",
+    "default_icon": "icon.png",
     "default_popup": "popup.html",
     "default_title": "Click here!"
   },
+  "omnibox": {
+      "keyword": "anger?"
+  },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/",
-    "storage"
+    "https://www.gateway.watsonplatform.net/"
   ],
   "content_scripts": [
     {

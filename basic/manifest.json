@@ -1,23 +1,21 @@
 {
   "manifest_version": 2,
 
-  "name": "BearHacks Facebook Blocker",
-  "description": "This extension blocks Facebook whenever you load it.",
+  "name": "---NAME YOUR EXTENSION---",
+  "description": "---DESCRIBE YOUR EXTENSION---",
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "block_fb.png",
+    "default_icon": "icon.png",
     "default_popup": "popup.html",
     "default_title": "Click here!"
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/",
-    "storage"
   ],
   "content_scripts": [
     {
-        "matches": ["https://*/"],
+        "matches": ["---DESIGNATE WEBSITES TO RUN ON---"],
         "js": ["content-script.js"]
     }
   ],
