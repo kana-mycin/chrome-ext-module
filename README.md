@@ -38,9 +38,9 @@ Planning sheet: https://docs.google.com/document/d/1B4dZ36Z4k3zdYL8274GI88mqfQjP
 
 ### Fundamentals
 #### _Intro to Coding in JavaScript_
-BearHacks Tutorial [here](https://repl.it/EWtF/latest)
-Codecademy [here](https://www.codecademy.com/learn/javascript)
-Basic ideas:
+BearHacks Tutorial [here](https://repl.it/EWtF/latest)  
+Codecademy [here](https://www.codecademy.com/learn/javascript)  
+###### Basic ideas:
 * variables
 * functions
 * loops
