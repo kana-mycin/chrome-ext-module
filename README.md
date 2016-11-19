@@ -19,7 +19,7 @@ Planning sheet: https://docs.google.com/document/d/1B4dZ36Z4k3zdYL8274GI88mqfQjP
 4. Video Speed Controller: control speed of YouTube videos using S, D, R keys
 
 #### _Google Search Word Replace Exercise_
-1. Go to [Google](www.google.com).
+1. Go to [Google](https://www.google.com).
 2. Right click on the Google Search button, and select **Inspect** from the drop-down menu. You should see a console appear, with a line containing `<input value="Google Search"...` highlighted.
 3. Double click on the words `Google Search`, and enter any text that you want. You should see that the words `Google Search` on the webpage are now replaced by your text.
 4. Copy and paste the line `document.querySelector('[value="Google Search"]').value = "Hello from BearHacks!"` into the console, and press Enter. What happened? You should see that the text changed.
