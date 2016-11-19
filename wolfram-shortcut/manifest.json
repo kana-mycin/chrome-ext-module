@@ -1,0 +1,10 @@
+{
+  "name": "Wolfram Shortcut",
+  "description" : "To use, type 'wolfram' plus a search term into the Omnibox.",
+  "version": "1.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword" : "wolfram" },
+  "manifest_version": 2
+}
