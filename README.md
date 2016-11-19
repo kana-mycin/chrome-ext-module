@@ -42,6 +42,11 @@ Planning sheet: https://docs.google.com/document/d/1B4dZ36Z4k3zdYL8274GI88mqfQjP
 3. Look in cloud-to-butt/content_script.js. Uncomment some of the lines in handleText to replace more things!
 4. Try writing your own regex to replace other common words or funny phrases
 
+#### _Wolfram Shortcut_
+1. Load the wolfram shortcut extension (folder name: **wolfram-shortcut**)
+2. Open any browser tab, and type `wolfram` followed by the **Tab** key. You should see a prompt pop up that says: _Wolfram Shortcut|_
+3. Type in `How many calories in a cubic lightyear of butter` and hit enter
+4. Look in wolfram-shortcut/background.js to see what you can change and improve on!
 
 
 ### Fundamentals
@@ -56,6 +61,12 @@ Useful methods:
 * str.replace(oldString, newString)
 * str.includes(searchString)
 * document.getElementByTagName, getElementById, querySelector
+
+#### _Chrome Extension Resources_
+* [Read the background page's console.log](http://stackoverflow.com/questions/10257301/where-to-read-console-messages-from-background-js-in-a-chrome-extension)
+* [Chrome APIs](https://developer.chrome.com/extensions/api_index)
+* [Architecture Overview](https://developer.chrome.com/extensions/overview)
+* Always remember to reload your extension when you test it!
 
 ### Go build some Chrome Extensions!
 Resources:
