@@ -36,6 +36,14 @@ Planning sheet: https://docs.google.com/document/d/1B4dZ36Z4k3zdYL8274GI88mqfQjP
 3. Enter in or copy paste some text whose anger level you'd like to analyze, and press **Enter**.
 4. Check out the rating in the pop up window. :)
 
+#### _Cloud To Butt_
+1. Load the text replacement extension (folder name: **cloud-to-butt**)
+2. Open a website that mentions the Cloud a lot. Try [wikipedia](https://en.wikipedia.org/wiki/Cloud_computing).
+3. Look in cloud-to-butt/content_script.js. Uncomment some of the lines in handleText to replace more things!
+4. Try writing your own regex to replace other common words or funny phrases
+
+
+
 ### Fundamentals
 #### _Intro to Coding in JavaScript_
 Basic ideas:
