@@ -48,6 +48,13 @@ Planning sheet: https://docs.google.com/document/d/1B4dZ36Z4k3zdYL8274GI88mqfQjP
 3. Type in `How many calories in a cubic lightyear of butter` and hit enter
 4. Look in wolfram-shortcut/background.js to see what you can change and improve on!
 
+#### _AJAX ISS Example_
+1. Load the AJAX shortcut extension (folder name: **ajax-example**)
+2. Open any browser tab, and type `ajax` followed by the **Tab** key. You should see a prompt pop up that says: _ISS Location|_
+3. Type in anything and you should see the location of the ISS pop up. If it's over a country, you should get the country name
+4. Look in ajax-example/background.js to see what you can change and improve on! Right now we get the country associated with the current timezone. See if you can change it so we get the exact country the ISS is currently over.
+5. [ISS Location API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
+6. [Location Lookup API](http://www.geonames.org/export/web-services.html)
 
 ### Fundamentals
 #### _Intro to Coding in JavaScript_
